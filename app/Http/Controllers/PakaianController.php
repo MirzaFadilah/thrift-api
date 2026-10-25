@@ -41,7 +41,7 @@ class PakaianController extends Controller
     public function update(Request $request, $id)
     {
         $pakaian = Pakaian::findOrFail($id);
-        
+
         $validated = $request->validate([
             'nama' => 'sometimes|required|string',
             'brand' => 'sometimes|required|string',
