@@ -1,4 +1,7 @@
 {
+  "build": {
+    "type": "php"
+  },
   "deploy": {
     "hook": "composer install --no-dev --optimize-autoloader"
   }
