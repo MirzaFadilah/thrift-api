@@ -1,3 +1,5 @@
 {
-  "webroot": "/public"
+  "deploy": {
+    "hook": "composer install --no-dev --optimize-autoloader"
+  }
 }
